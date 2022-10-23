@@ -47,7 +47,7 @@ function searchHandler(event) {
                 countryInfoMarkup(markup);
             }
         })
-        .catch(error => console.log(error));
+        .catch(error => console.log("Oops, we have a problem: ", error));
 }
 
 function listOfCountriesMarkup(element) {
